@@ -1,9 +1,9 @@
 import React, { Component } from "react";
-import API from "../utils/API";
-import Jumbotron from "../components/Jumbotron";
-import { Container, Row, Col } from "../components/Grid";
-import SearchForm from "../components/SearchForm";
-import SearchResult from "../components/SearchResult";
+import API from "../Utils/API.js";
+import Jumbotron from "../Components/Jumbotron";
+import { Container, Row, Col } from "../Components/Grid";
+import SearchForm from "../Components/SearchForm";
+import SearchResult from "../Components/SearchResult";
 
 class SearchBooks extends Component {
   //create state
