@@ -1,4 +1,5 @@
 import React from "react";
+import "./style.css";
 
 function Nav() {
   return (
@@ -17,7 +18,7 @@ function Nav() {
           </li>
           <li className="nav-item" id="report">
             <a className="nav-link" href="/saved">
-              <button type="button" className="btn btn-warning text-white">
+              <button type="button" className="btn btn-danger text-white">
                 Saved Books
               </button>
             </a>

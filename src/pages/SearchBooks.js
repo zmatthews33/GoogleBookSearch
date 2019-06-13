@@ -65,11 +65,9 @@ class SearchBooks extends Component {
   };
   render() {
     return (
-      <Container fluid>
+      <Container fluid={true}>
         <Jumbotron>
-          <h1 className="text-white">
-            Find Your Favorite Books with GoogleBook API
-          </h1>
+          <h1>Using the Google Books API- Search For Your Favorite Books</h1>
         </Jumbotron>
         <Container>
           <Row>
