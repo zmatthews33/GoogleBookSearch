@@ -2,9 +2,9 @@ import React, { Component } from "react";
 import API from "../Utils/API.js";
 import Jumbotron from "../Components/Jumbotron";
 import { Container } from "../Components/Grid";
-import SavedResult from "../Components/SavedBooks";
+import SavedBooks from "../Components/SavedBooks";
 
-class SaveBook extends Component {
+class SaveBooks extends Component {
   state = {
     savedBooks: []
   };
@@ -28,7 +28,7 @@ class SaveBook extends Component {
       <Container fluid className="container">
         <Jumbotron />
         <Container>
-          <SavedResult
+          <SavedBooks
             savedBooks={this.state.savedBooks}
             handleDeleteButton={this.handleDeleteButton}
           />
@@ -38,4 +38,4 @@ class SaveBook extends Component {
   }
 }
 
-export default SaveBook;
+export default SaveBooks;
