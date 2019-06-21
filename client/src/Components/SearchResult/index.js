@@ -26,7 +26,7 @@ const SearchResult = props => {
                 >
                   {/* col-3 show image of the book */}
                   <Col size="2" className="bookImage">
-                    <img src={book.image} alt={book.title} />
+                    <img src={book.img} alt={book.title} />
                   </Col>
                   <Col size="1" className="emptyCol" />
                   {/* col-9 show information of the book */}
