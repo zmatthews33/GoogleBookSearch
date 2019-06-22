@@ -19,9 +19,8 @@ app.use(routes);
 //Connect to mongoose
 mongoose.connect(
   process.env.MONGODB_URI ||
-    "mongodb://root:@ds237357.mlab.com:37357/heroku_t4rrg571",
+    "mongodb://heroku_t4rrg571:whatever33@ds237357.mlab.com:37357/heroku_t4rrg571",
   {
-    //mongodb://root:@ds237357.mlab.com:37357/heroku_t4rrg571
     useNewUrlParser: true
   }
 );
