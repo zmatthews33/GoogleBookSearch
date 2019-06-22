@@ -26,7 +26,7 @@ const SavedBooks = props => {
                 >
                   {/* col-3 show image of the book */}
                   <Col size="2" className="bookImage">
-                    <img src={savedbook.img} alt={savedbook.title} />
+                    <img src={savedbook.image} alt={savedbook.title} />
                   </Col>
                   <Col size="1" className="emptyCol" />
                   {/* col-9 show information of the book */}

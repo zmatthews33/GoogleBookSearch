@@ -17,10 +17,14 @@ if (process.env.NODE_ENV === "production") {
 app.use(routes);
 
 //Connect to mongoose
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/googleBooks", {
-  //mongodb://root:@ds237357.mlab.com:37357/heroku_t4rrg571
-  useNewUrlParser: true
-});
+mongoose.connect(
+  process.env.MONGODB_URI ||
+    "mongodb://root:@ds237357.mlab.com:37357/heroku_t4rrg571",
+  {
+    //mongodb://root:@ds237357.mlab.com:37357/heroku_t4rrg571
+    useNewUrlParser: true
+  }
+);
 
 app.listen(PORT, () => {
   console.log(`🌎 ==> API server now on port ${PORT}!`);
