@@ -6,7 +6,7 @@ const SearchForm = props => {
     <form>
       <div className="form-group">
         <label className="BookSearchLabel">
-          <h3>Search For Books</h3>
+          <h3>Search For Book</h3>
         </label>
         <br />
         <input
