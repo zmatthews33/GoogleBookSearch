@@ -8,21 +8,18 @@ const app = express();
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
-// Serve up static assets (usually on heroku)
 if (process.env.NODE_ENV === "production") {
   app.use(express.static("client/build"));
 }
 
-// Define API routes here
 app.use(routes);
 
-//Connect to mongoose
 mongoose.connect(
-  process.env.MONGODB_URI ||
-    "mongodb://heroku_t4rrg571:whatever33@ds237357.mlab.com:37357/heroku_t4rrg571",
+  process.env.MONGODB_URI || "mongodb://localhost/googlebooks",
   {
     useNewUrlParser: true
-  }
+  },
+  console.log("connected to mongoose")
 );
 
 app.listen(PORT, () => {
