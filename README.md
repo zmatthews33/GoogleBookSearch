@@ -1,6 +1,6 @@
-# google-books-search
-A Google Books Search App Using React and MongoDB
 # Google Books Search
+A Google Books Search App Using React and MongoDB
+
 Search Google Books and save your favorites in this web app.
 
 ## Technologies Used
