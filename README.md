@@ -1,6 +1,7 @@
 # Google Book Search
 [Google Book Search](https://google-book-search-react33.herokuapp.com/)
-A Google Books Search App Using React and MongoDB
+
+- A Google Book Search App Using React and MongoDB
 
 Search Google Books and save your favorites in this web app.
 
